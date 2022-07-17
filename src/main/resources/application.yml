@@ -1,0 +1,9 @@
+app:
+  mozambiquehere:
+    api-key: LX5uA10mEpLzgM2CHucw
+
+feign:
+  client:
+    config:
+      playerFeign:
+        decoder: feign.jackson.JacksonDecoder
